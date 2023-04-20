@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script>
+        var randomPicture = [];
+        randomPicture[0] = "Bilder/Rosa/Hund.jpg";
+        randomPicture[1] = "Bilder/Rosa/Katt.jpg";
+        randomPicture[2] = "Bilder/Rosa/Kenguru.jpg";
+        randomPicture[3] = "Bilder/Rosa/Rev.jpg";
+
+
+        var randomSounds = [];
+        randomSounds[0] = "Lydfiler/Bruh.mp3";
+        randomSounds[1] = "Lydfiler/Bruh.mp3";
+        randomSounds[2] = "Lydfiler/Bruh.mp3";
+        randomSounds[3] = "Lydfiler/Bruh.mp3";
+
+        var randomQuestions = [];
+        randomQuestions[0] = "What's the best thing you got from one of your parents?";
+        randomQuestions[1] = "If you could have any superpower, what would it be and why?";
+        randomQuestions[2] = "What's your favorite candy?";
+        randomQuestions[3] = "Have you ever saved someone's life?";
+
+        var random = Math.floor(Math.random() * 4);
+
+        function image() {
+          var img = '<img class="centerFit" src=\"';
+          img += randomPicture[random];
+          img += '\"/>';
+          document.write(img);
+        }
+
+        function question() {
+          document.write(randomQuestions[random]);
+        };
+
+        function play() {
+          var audio = new Audio(randomSounds[random]);
+          audio.play();
+        };
+    </script>
+    <title>Gul</title>
+</head>
+<body>
+  <a href="index.html" class="backButton">
+      ← 
+  </a>
+  <div class="question">
+    <div class="imageBox">
+      <script >
+        image();
+      </script>
+    </div>
+    <h1>
+      <script>
+        play();
+        question();
+      </script>
+    </h1>
+    <button onclick="play();">
+      <img src="Bilder/Replay.png" alt="" style="width: 10%;">
+    </button>
+  </div>
+</body>
+</html>
