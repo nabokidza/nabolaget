@@ -1,7 +1,7 @@
 
 const type = "gul";
 const oppgaver = [
-    {id:1, losning:"002.png", 
+    {id:1, losning:"losning.png", 
     biter:[
         
         { koordinater:"105,1506,228,1383,460,1383,340,1511", riktigBilde:"004.png", form:"poly"},
