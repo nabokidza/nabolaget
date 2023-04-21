@@ -1,8 +1,14 @@
 
 const type = "blaa";
 const oppgaver = [
-    {id:1, beskrivelse:"Du kan selv gå to steg frem", lyd:"Joker2.m4a", bilde:""},
-    {id:2, beskrivelse:"Du kan velge en spiller som må gå et steg tilbake 🌵", lyd:"Joker1.m4a" , bilde:""},
+    {id:1, beskrivelse:"Stein, saks, papir. Best av tre.", lyd:"bla1.m4a", bilde:""},
+    {id:2, beskrivelse:"Tre på rad", lyd:"bla2.m4a" , bilde:""},
+    {id:3, beskrivelse:"Bygg et tårn med legoklosser", lyd:"bla3.m4a", bilde:""},
+    {id:4, beskrivelse:"Fullfør mønsteret", lyd:"guloppgave567.m4a", bilde""},
+    {id:5, beskrivelse:"Fullfør mønsteret", lyd:"guloppgave567.m4a", bilde""},
+    {id:6, beskrivelse:"Fullfør mønsteret", lyd:"guloppgave567.m4a", bilde""},
+    
+ 
 ]
 
 const oppgaveBeskrivelse = document.getElementById("oppgave");
