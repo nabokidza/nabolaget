@@ -1,9 +1,7 @@
-
 const type = "gul";
 const oppgaver = [
     {id:1, losning:"losning.png", 
     biter:[
-        
         { koordinater:"105,1506,228,1383,460,1383,340,1511", riktigBilde:"004.png", form:"poly"},
         { koordinater:"98,1017,593,1022,346,1269", riktigBilde:"008.png", form:"poly"}, 
         { koordinater:"232,1379,459,1379,344,1271", riktigBilde:"006.png", form:"poly"}, 
@@ -11,7 +9,6 @@ const oppgaver = [
         { koordinater:"486,1133,592,1023,591,1240", riktigBilde:"005.png", form:"poly"},
         { koordinater:"346,1506,593,1252,595,1509", riktigBilde:"003.png", form:"poly"},
         { koordinater:"104,1024,102,1503,344,1264", riktigBilde:"007.png", form:"poly"},
-      
     ] },
     {
     
@@ -38,10 +35,8 @@ const oppgaver = [
             { koordinater:"842,1264,981,1211,903,1411", riktigBilde:"207.png", form:"poly"},
             { koordinater:"1200,1205,1353,1258,1303,1402", riktigBilde:"203.png", form:"poly"},
             
-   ] },
-]; 
-   
-   
+   ] }
+];
 
 const map = document.getElementById("taskMap");
 const maalBilde = document.getElementById("oppgave");
@@ -53,7 +48,7 @@ let over = null;
 function showTask(oppgave){
    
     map.innerHTML = "";
-    maalBilde.src =  `bilder/${type}/${oppgave.id}/${oppgave.losning}`
+    maalBilde.src =  `bilder/${type}/oppgave${oppgave.id}/${oppgave.losning}`
     
     oppgave.biter.forEach(bit => {
         
@@ -104,7 +99,7 @@ function move(evt){
 }
 
 let oppgaveIndex = Math.round( Math.random() * (oppgaver.length-1)) ;
-oppgaveIndex = 1;
+oppgaveIndex = 2;
 showTask(oppgaver[oppgaveIndex]);
 
 function tilfeldigPos(){
