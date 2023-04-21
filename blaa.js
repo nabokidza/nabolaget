@@ -3,10 +3,10 @@ const type = "blaa";
 const oppgaver = [
     {id:1, beskrivelse:"Stein, saks, papir. Best av tre.", lyd:"bla1.m4a", bilde:""},
     {id:2, beskrivelse:"Tre på rad", lyd:"bla2.m4a" , bilde:""},
-    {id:3, beskrivelse:"Bygg et tårn med legoklosser", lyd:"bla3.m4a", bilde:""},
-    {id:4, beskrivelse:"Fullfør mønsteret", lyd:"guloppgave567.m4a", bilde""},
-    {id:5, beskrivelse:"Fullfør mønsteret", lyd:"guloppgave567.m4a", bilde""},
-    {id:6, beskrivelse:"Fullfør mønsteret", lyd:"guloppgave567.m4a", bilde""},
+    {id:3, beskrivelse:"Bygg et tårn med legoklosser", lyd:"bla3.m4a", bilde:"lego.png"},
+    {id:4, beskrivelse:"Fullfør mønsteret", lyd:"guloppgave567.m4a", bilde"monster1.png"},
+    {id:5, beskrivelse:"Fullfør mønsteret", lyd:"guloppgave567.m4a", bilde"monster2.png"},
+    {id:6, beskrivelse:"Fullfør mønsteret", lyd:"guloppgave567.m4a", bilde"monster.png"},
     
  
 ]
