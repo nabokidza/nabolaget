@@ -1,4 +1,4 @@
-const type = "gul";
+const type = "Gul";
 const oppgaver = [
     {id:1, losning:"losning.png", 
     biter:[
@@ -99,7 +99,7 @@ function move(evt){
 }
 
 let oppgaveIndex = Math.round( Math.random() * (oppgaver.length-1)) ;
-oppgaveIndex = 2;
+
 showTask(oppgaver[oppgaveIndex]);
 
 function tilfeldigPos(){
