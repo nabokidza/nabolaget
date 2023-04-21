@@ -66,7 +66,10 @@ function showTask(oppgave){
   
 }
 
-showTask(rimeoppgaver[0]);
+let oppgaveIndex = Math.round(Math.random() * (rimeoppgaver.length -1));
+
+
+showTask(rimeoppgaver[oppgaveIndex]);
 
 function tilfeldigPos(){
     let top = Math.round(Math.random() * (300 -25))+25;
