@@ -29,7 +29,7 @@ const oppgaver = [
         biter:[
             { koordinater:"1100,559,973,690,1090,807,1230,666,1223,666", riktigBilde:"205.png", form:"poly"},
             { koordinater:"846,684,650,869,1014,881", riktigBilde:"201.png", form:"poly"},
-            { koordinater:"1159,872,1313,696,1497,682,1340,870", riktigBilde:"2014.png", form:"poly"},
+            { koordinater:"1159,872,1313,696,1497,682,1340,870", riktigBilde:"204.png", form:"poly"},
             { koordinater:"844,1058,1340,1054,1089,808", riktigBilde:"208.png", form:"poly"},
             { koordinater:"846,1063,1337,1062,1089,1310", riktigBilde:"202.png", form:"poly"},
             { koordinater:"842,1264,981,1211,903,1411", riktigBilde:"207.png", form:"poly"},
