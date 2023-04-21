@@ -6,7 +6,7 @@ const oppgaver = [
     {id:3, beskrivelse:"Bygg et tårn med legoklosser", lyd:"bla3.m4a", bilde:"lego.png"},
     {id:4, beskrivelse:"Fullfør mønsteret", lyd:"guloppgave567.m4a", bilde"monster1.png"},
     {id:5, beskrivelse:"Fullfør mønsteret", lyd:"guloppgave567.m4a", bilde"monster2.png"},
-    {id:6, beskrivelse:"Fullfør mønsteret", lyd:"guloppgave567.m4a", bilde"monster.png"},
+    {id:6, beskrivelse:"Fullfør mønsteret", lyd:"guloppgave567.m4a", bilde"monster3.png"},
     
  
 ]
