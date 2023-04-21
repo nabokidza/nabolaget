@@ -1,10 +1,9 @@
 
 const type = "gul";
 const oppgaver = [
-    {id:1, losning:"losning.png", 
+    {id:1, losning:"002.png", 
     biter:[
-        { koordinater:"133,365,362,368,247,495,7,495", riktigBilde:"001.png", form:"poly"},
-        { koordinater:"38,0,496,7,249,251,265,19,233,162", riktigBilde:"002.png", form:"poly"},
+        
         { koordinater:"105,1506,228,1383,460,1383,340,1511", riktigBilde:"004.png", form:"poly"},
         { koordinater:"98,1017,593,1022,346,1269", riktigBilde:"008.png", form:"poly"}, 
         { koordinater:"232,1379,459,1379,344,1271", riktigBilde:"006.png", form:"poly"}, 
