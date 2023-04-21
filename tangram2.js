@@ -1,4 +1,4 @@
-const type = "gul";
+const type = "Gul";
 const oppgaver = [
     {id:1, losning:"losning.png", 
     biter:[
