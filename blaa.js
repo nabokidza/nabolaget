@@ -1,5 +1,5 @@
 
-const type = "blaa";
+const type = "blaa.js";
 const oppgaver = [
     {id:1, beskrivelse:"Stein, saks, papir. Best av tre.", lyd:"bla1.m4a", icon:"👊🏼✌🏽🤚🏾"},
     {id:2, beskrivelse:"Tre på rad", lyd:"bla2.m4a" , bilde:"Tiktak2.png"},
