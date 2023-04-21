@@ -20,5 +20,13 @@ const oppgaver = [
     {
     
         id:2, losning:"102.png",
+        biter:[
+            { koordinater:"942,847,775,1014,952,1009", riktigBilde="107.jpg", form="poly"},
+            { koordinater:"950,846,1144,846,1138,1005,958,100", riktigBilde="106.jpg", form="poly"},
+            { koordinater:"954,1012,1136,1012,964,1193,783,1188", riktigBilde="103.jpg", form="poly"},
+            { koordinater:"789,1195,960,1193,787,1353", riktigBilde="104.jpg", form="poly"},
+            { koordinater:"973,1191,786,1363,971,1553", riktigBilde="108.jpg", form="poly"}, 
+            { koordinater:"979,1205,979,1549,1330,1548", riktigBilde="101.jpg", form="poly"}, 
+            { koordinater:"980,1192,1471,1197,1227,1440", riktigBilde="105.jpg", form="poly"},
     }
 ]
