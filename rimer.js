@@ -2,7 +2,8 @@
 const type = "gronn";
 const rimeoppgaver = [
     {id:"oppgave1", riktig:"mus.jpg", riktigLyd:"riktig1.mp3", fokus:"hus.jpg", feil:["elefant.jpg","melk.jpg","vindmolle.jpg"], beskrivelse:"Hva rimer på hus?" , lyd:"oppgave4.m4a"}
-    {id:"oppgave2", riktig:"
+    {id:"oppgave2", riktig:"kattriktig.jpg", riktiglyd:"riktig.mp3", fokus:"hattriktig.jpg", feil:["feil11.jpg", "feil12.jpg", "feil13.jpg"], beskrivelse:"Hva rimer på hatt?" , lyd:"oppgave3.m4a"}
+    {id:"oppgave3", riktig:"stolriktig.jpåg", riktiglyd:"???", fokus:"solriktig.jpg", feil:["feil20.jpg", "feil21.jpg", "feil22.jpg"], beskrivelse:"Hva rimer på sol?" , lyd:"?"}
     
 ]
 
