@@ -28,5 +28,21 @@ const oppgaver = [
             { koordinater:"973,1191,786,1363,971,1553", riktigBilde="108.jpg", form="poly"}, 
             { koordinater:"979,1205,979,1549,1330,1548", riktigBilde="101.jpg", form="poly"}, 
             { koordinater:"980,1192,1471,1197,1227,1440", riktigBilde="105.jpg", form="poly"},
-    }
-]
+            
+            
+    ] },
+    {
+        id:3, losning:"206.png",
+        biter:[
+            { koordinater:"1100,559,973,690,1090,807,1230,666,1223,666", riktigBilde="205.jpg", form="poly"},
+            { koordinater:"846,684,650,869,1014,881", riktigBilde="201.jpg", form="poly"},
+            { koordinater:"1159,872,1313,696,1497,682,1340,870", riktigBilde="2014.jpg", form="poly"},
+            { koordinater:"844,1058,1340,1054,1089,808", riktigBilde="208.jpg", form="poly"},
+            { koordinater:"846,1063,1337,1062,1089,1310", riktigBilde="202.jpg", form="poly"},
+            { koordinater:"842,1264,981,1211,903,1411", riktigBilde="207.jpg", form="poly"},
+            { koordinater:"1200,1205,1353,1258,1303,1402", riktigBilde="203.jpg", form="poly"},
+            
+   ] }, 
+   { 
+       
+        
