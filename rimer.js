@@ -3,7 +3,7 @@ const type = "gronn";
 const rimeoppgaver = [
     {id:"rime", riktig:"mus.png", riktigLyd:"riktig1.mp3", fokus:"hus.png", feil:["elefant.png","melk.png","vindmolle.png"], beskrivelse:"Hva rimer på hus?" , lyd:"oppgave4.m4a"},
     {id:"rime", riktig:"katt.png", riktiglyd:"riktig1.mp3", fokus:"hatt.png", feil:["melk.png", "vindmolle.png", "elefant.png"], beskrivelse:"Hva rimer på hatt?" , lyd:"oppgave3.m4a"},
-    {id:"rime", riktig:"stol.png", riktiglyd:"riktig1.mp3", fokus:"sol.png", feil:["mus.png", "hatt.png", "katt.png"], beskrivelse:"Hva rimer på sol?" , lyd:"solrim.m4a"},
+    {id:"rime", riktig:"stol.png", riktiglyd:"riktig1.mp3", fokus:"sol.png", feil:["mus.png", "hatt.png", "katt.png"], beskrivelse:"Hva rimer på sol?" , lyd:"rimersol.m4a"},
     
 ]
 
