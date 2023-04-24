@@ -1,19 +1,17 @@
 
 const type = "blaa.js";
 const oppgaver = [
-    {id:1, beskrivelse:"Stein, saks, papir. Best av tre.", lyd:"bla1.m4a", icon:"👊🏼✌🏽🤚🏾"},
-    {id:2, beskrivelse:"Tre på rad", lyd:"bla2.m4a" , bilde:"Tiktak2.png"},
+    {id:1, beskrivelse:"Stein, saks, papir. Best av tre", lyd:"bla1.m4a", icon:"👊🏼✌🏽🤚🏾"},
+    {id:2, beskrivelse:"Tre på rad", lyd:"bla2.m4a" , bilde:"Tiktak2.jpg"},
     {id:3, beskrivelse:"Bygg et tårn med legoklosser", lyd:"bla3.m4a", bilde:"lego.png"},
     {id:4, beskrivelse:"Fullfør mønsteret", lyd:"guloppgave567.m4a", bilde"monster1.png"},
     {id:5, beskrivelse:"Fullfør mønsteret", lyd:"guloppgave567.m4a", bilde"monster2.png"},
     {id:6, beskrivelse:"Fullfør mønsteret", lyd:"guloppgave567.m4a", bilde"monster3.png"},
-    
- 
 ]
 
 const oppgaveBeskrivelse = document.getElementById("oppgave");
 const lydknapp = document.getElementById("lyd");
-const oppgaveBilde = document.getElementById("oppgaveBilde");
+const bilde = document.getElementById("bilde");
 let oppgaveLyd = lagLyd();
 document.body.appendChild(oppgaveLyd);
 
@@ -31,7 +29,7 @@ function showTask(oppgave){
     oppgaveBilde.src = `bilder/${type}/${oppgave.bilde}`;
 }
 
-let oppgaveIndex = Math.random() >= 0.5 ? 0:1; 
+let oppgaveIndex = Math.round( Math.random() * (oppgaver.length-1)) ;
 
 showTask(oppgaver[oppgaveIndex]);
 
