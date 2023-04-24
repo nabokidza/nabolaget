@@ -1,17 +1,17 @@
 
 const type = "blaa.js";
 const oppgaver = [
-    {id:1, beskrivelse:"Stein, saks, papir. Best av tre", lyd:"bla1.m4a", icon:"👊🏼✌🏽🤚🏾"},
-    {id:2, beskrivelse:"Tre på rad", lyd:"bla2.m4a" , bilde:"Tiktak2.jpg"},
-    {id:3, beskrivelse:"Bygg et tårn med legoklosser", lyd:"bla3.m4a", bilde:"lego.png"},
-    {id:4, beskrivelse:"Fullfør mønsteret", lyd:"guloppgave567.m4a", bilde"monster1.png"},
-    {id:5, beskrivelse:"Fullfør mønsteret", lyd:"guloppgave567.m4a", bilde"monster2.png"},
-    {id:6, beskrivelse:"Fullfør mønsteret", lyd:"guloppgave567.m4a", bilde"monster3.png"},
+    {id:1, beskrivelse:"Stein, saks, papir. Best av tre👊🏼✌🏽🤚", lyd:"bla1.m4a" },
+    {id:2, beskrivelse:"Tre på rad", lyd:"bla2.m4a", bilder:"tiktak2.jpg" },
+    {id:3, beskrivelse:"Bygg et tårn med legoklosser", lyd:"bla3.m4a", bilder:"lego.png" },
+    {id:4, beskrivelse:"Fullfør mønsteret", lyd:"guloppgave567.m4a", bilder"monster1.png" },
+    {id:5, beskrivelse:"Fullfør mønsteret", lyd:"guloppgave567.m4a", bilder"monster2.png" },
+    {id:6, beskrivelse:"Fullfør mønsteret", lyd:"guloppgave567.m4a", bilder"monster3.png" },
 ]
 
 const oppgaveBeskrivelse = document.getElementById("oppgave");
 const lydknapp = document.getElementById("lyd");
-const bilde = document.getElementById("bilde");
+const bilde = document.getElementById("bilder");
 let oppgaveLyd = lagLyd();
 document.body.appendChild(oppgaveLyd);
 
