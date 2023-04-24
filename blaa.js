@@ -2,11 +2,11 @@
 const type = "blaa.js";
 const oppgaver = [
     {id:1, beskrivelse:"Stein, saks, papir. Best av tre👊🏼✌🏽🤚", lyd:"bla1.m4a" },
-    {id:2, beskrivelse:"Tre på rad", lyd:"bla2.m4a", bilder:"tiktak2.jpg" },
-    {id:3, beskrivelse:"Bygg et tårn med legoklosser", lyd:"bla3.m4a", bilder:"lego.png" },
-    {id:4, beskrivelse:"Fullfør mønsteret", lyd:"guloppgave567.m4a", bilder"monster1.png" },
-    {id:5, beskrivelse:"Fullfør mønsteret", lyd:"guloppgave567.m4a", bilder"monster2.png" },
-    {id:6, beskrivelse:"Fullfør mønsteret", lyd:"guloppgave567.m4a", bilder"monster3.png" },
+    {id:2, beskrivelse:"Tre på rad", lyd:"bla2.m4a", bilder:"tiktak2.png" },
+    {id:3, beskrivelse:"Bygg et tårn med legoklosser", lyd:"bla3.m4a", bilder:"legokloss.png" },
+    {id:4, beskrivelse:"Fullfør mønsteret", lyd:"guloppgave567.m4a", bilder"monster11.png" },
+    {id:5, beskrivelse:"Fullfør mønsteret", lyd:"guloppgave567.m4a", bilder"monster22.png" },
+    {id:6, beskrivelse:"Fullfør mønsteret", lyd:"guloppgave567.m4a", bilder"monster33.png" },
 ]
 
 const oppgaveBeskrivelse = document.getElementById("oppgave");
