@@ -1,9 +1,9 @@
 
 const type = "gronn";
 const rimeoppgaver = [
-    {id:"oppgave1", riktig:"mus.png", riktigLyd:"riktig1.mp3", fokus:"hus.png", feil:["elefant.png","melk.png","vindmolle.png"], beskrivelse:"Hva rimer på hus?" , lyd:"oppgave4.m4a"},
-    {id:"oppgave2", riktig:"katt.png", riktiglyd:"riktig1.mp3", fokus:"hatt.png", feil:["malk.png", "vindmolle.png", "elefant.png"], beskrivelse:"Hva rimer på hatt?" , lyd:"oppgave3.m4a"},
-    {id:"oppgave3", riktig:"stol.png", riktiglyd:"riktig1.mp3", fokus:"sol.png", feil:["mus.png", "hatt.png", "katt.png"], beskrivelse:"Hva rimer på sol?" , lyd:"oppgave2.m4a"},
+    {id:"rime", riktig:"mus.png", riktigLyd:"riktig1.mp3", fokus:"hus.png", feil:["elefant.png","melk.png","vindmolle.png"], beskrivelse:"Hva rimer på hus?" , lyd:"oppgave4.m4a"},
+    {id:"rime", riktig:"katt.png", riktiglyd:"riktig1.mp3", fokus:"hatt.png", feil:["melk.png", "vindmolle.png", "elefant.png"], beskrivelse:"Hva rimer på hatt?" , lyd:"oppgave3.m4a"},
+    {id:"rime", riktig:"stol.png", riktiglyd:"riktig1.mp3", fokus:"sol.png", feil:["mus.png", "hatt.png", "katt.png"], beskrivelse:"Hva rimer på sol?" , lyd:"solrim.m4a"},
     
 ]
 
