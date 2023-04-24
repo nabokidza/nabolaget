@@ -1,7 +1,7 @@
 
 const type = "blaa";
 const oppgaver = [
-    {id:"oppgave1", oppgave:"Stein saks papir. Best av tre👊🏼✌🏽🤚", lyd:"bla1.m4a" },
+    {id:"oppgave1", beskrivelse:"Stein saks papir. Best av tre👊🏼✌🏽🤚", lyd:"bla1.m4a" },
     {id:"oppgave1", beskrivelse:"Tre på rad", lyd:"bla2.m4a", bilde:"tiktak2.png" },
     {id:"oppgave1", beskrivelse:"Bygg et tårn med legoklosser", lyd:"bla3.m4a", bilde:"legokloss.png" },
     {id:"oppgave1", beskrivelse:"Fullfør mønsteret", lyd:"guloppgave567.m4a", bilde"monster11.png" },
