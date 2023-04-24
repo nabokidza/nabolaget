@@ -1,7 +1,7 @@
 
 const type = "blaa.js";
 const oppgaver = [
-    {id:1, beskrivelse:"Stein, saks, papir. Best av tre👊🏼✌🏽🤚", lyd:"bla1.m4a" },
+    {id:1, beskrivelse:"Stein saks papir. Best av tre👊🏼✌🏽🤚", lyd:"bla1.m4a" },
     {id:2, beskrivelse:"Tre på rad", lyd:"bla2.m4a", bilder:"tiktak2.png" },
     {id:3, beskrivelse:"Bygg et tårn med legoklosser", lyd:"bla3.m4a", bilder:"legokloss.png" },
     {id:4, beskrivelse:"Fullfør mønsteret", lyd:"guloppgave567.m4a", bilder"monster11.png" },
@@ -11,7 +11,7 @@ const oppgaver = [
 
 const oppgaveBeskrivelse = document.getElementById("oppgave");
 const lydknapp = document.getElementById("lyd");
-const bilde = document.getElementById("bilder");
+const bilde = document.getElementById("bilde");
 let oppgaveLyd = lagLyd();
 document.body.appendChild(oppgaveLyd);
 
