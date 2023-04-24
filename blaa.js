@@ -1,12 +1,13 @@
 
-const type = "blaa.js";
+const type = "blaa";
 const oppgaver = [
-    {id:"1", beskrivelse:"Stein saks papir. Best av tre👊🏼✌🏽🤚", lyd:"bla1.m4a" },
-    {id:"2", beskrivelse:"Tre på rad", lyd:"bla2.m4a", bilde:"tiktak2.png" },
-    {id:"3", beskrivelse:"Bygg et tårn med legoklosser", lyd:"bla3.m4a", bilde:"legokloss.png" },
-    {id:"4", beskrivelse:"Fullfør mønsteret", lyd:"guloppgave567.m4a", bilde"monster11.png" },
-    {id:"5", beskrivelse:"Fullfør mønsteret", lyd:"guloppgave567.m4a", bilde"monster22.png" },
-    {id:"6", beskrivelse:"Fullfør mønsteret", lyd:"guloppgave567.m4a", bilde"monster33.png" },
+    {id:"blaa1", beskrivelse:"Stein saks papir. Best av tre👊🏼✌🏽🤚", lyd:"bla1.m4a" },
+    {id:"blaa1", beskrivelse:"Tre på rad", lyd:"bla2.m4a", bilde:"Tiktak2.jpg" },
+    {id:"blaa1", beskrivelse:"Bygg et tårn med legoklosser", lyd:"bla3.m4a", bilde:"lego.png" },
+    {id:"blaa1", beskrivelse:"Fullfør mønsteret", lyd:"guloppgave567.m4a", bilde"monster1.PNG" },
+    {id:"blaa1", beskrivelse:"Fullfør mønsteret", lyd:"guloppgave567.m4a", bilde"monster2.PNG" },
+    {id:"blaa1", beskrivelse:"Fullfør mønsteret", lyd:"guloppgave567.m4a", bilde"monster3.PNG" },
+    
 ]
 
 const oppgaveBeskrivelse = document.getElementById("oppgave");
