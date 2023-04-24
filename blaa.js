@@ -29,7 +29,7 @@ function showTask(oppgave){
     oppgaveBilde.src = `bilder/${type}/${oppgave.bilde}`;
 }
 
-let oppgaveIndex = Math.round( Math.random() * (oppgaver.length-1)) ;
+let oppgaveIndex = Math.random() >= 0.5 ? 0:1;
 
 showTask(oppgaver[oppgaveIndex]);
 
