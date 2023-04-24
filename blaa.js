@@ -1,5 +1,5 @@
 
-const type = "blaa";
+const type = "blaa/";
 const oppgaver = [
     {id:"oppgave1", beskrivelse:"Stein saks papir. Best av tre👊🏼✌🏽🤚", lyd:"bla1.m4a" },
     {id:"oppgave1", beskrivelse:"Tre på rad", lyd:"bla2.m4a", bilde:"tiktak2.png" },
